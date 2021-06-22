@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePage" >
+
+    <Button
+        android:id="@+id/btn_logAttendance2"
+        android:layout_width="249dp"
+        android:layout_height="227dp"
+        android:layout_marginTop="36dp"
+        android:text="Alibis"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_logAttendance" />
+
+    <Button
+        android:id="@+id/btn_logAttendance"
+        android:layout_width="249dp"
+        android:layout_height="227dp"
+        android:layout_marginTop="140dp"
+        android:text="Log My Attendance"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:text="Welcome to Alibi"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="42dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/btn_logAttendance"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

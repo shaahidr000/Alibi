@@ -1,0 +1,2 @@
+rootProject.name = "Alibi"
+include ':app'

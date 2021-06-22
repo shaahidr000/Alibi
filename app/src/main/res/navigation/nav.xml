@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/homePage">
+
+    <fragment
+        android:id="@+id/homePage"
+        android:name="com.shaahid.alibi.HomePage"
+        android:label="fragment_home_page"
+        tools:layout="@layout/fragment_home_page" >
+        <action
+            android:id="@+id/action_homePage_to_attedndanceLog"
+            app:destination="@id/attedndanceLog" />
+        <action
+            android:id="@+id/action_homePage_to_attendanceLocation"
+            app:destination="@id/attendanceLocation" />
+    </fragment>
+    <fragment
+        android:id="@+id/attedndanceLog"
+        android:name="com.shaahid.alibi.AttedndanceLog"
+        android:label="fragment_attedndance_log"
+        tools:layout="@layout/fragment_attedndance_log" />
+    <activity
+        android:id="@+id/attendanceLocation"
+        android:name="com.shaahid.alibi.attendanceLocation"
+        android:label="activity_attendance_location"
+        tools:layout="@layout/activity_attendance_location" />
+</navigation>

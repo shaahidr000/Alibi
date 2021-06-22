@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "425816922029",
+    "project_id": "alibi-e47a8",
+    "storage_bucket": "alibi-e47a8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:425816922029:android:b3f0395d2842f3033f3324",
+        "android_client_info": {
+          "package_name": "com.shaahid.alibi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "425816922029-u3trvcpe6psmlikpnbj2t8j6qqmei3ko.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuWWzEC7QCSlv_OwdN3RQavYXIx1AC8g0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "425816922029-u3trvcpe6psmlikpnbj2t8j6qqmei3ko.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
